@@ -4,10 +4,8 @@
 ## Installation
 <p>Right now this script is made for QBCore.</p>
 <p>So you will need to add following to your items.lua</p>
-```lua
-    ['nightgoggles']                         = {['name'] = 'nightgoggles',                           ['label'] = 'Nightvision Goggles',           ['weight'] = 100,          ['type'] = 'item',         ['image'] = 'goggles.png',                 ['unique'] = true,         ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'Nightvision goggles'},
-    ['thermalgoggles']                        = {['name'] = 'thermalgoggles',                          ['label'] = 'Thermalvision Goggles',           ['weight'] = 100,          ['type'] = 'item',         ['image'] = 'goggles.png',                ['unique'] = true,          ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'Thermalvision goggles'},
-```
+``` ['nightgoggles']                         = {['name'] = 'nightgoggles',                           ['label'] = 'Nightvision Goggles',           ['weight'] = 100,          ['type'] = 'item',         ['image'] = 'goggles.png',                 ['unique'] = true,         ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'Nightvision goggles'},
+    ['thermalgoggles']                        = {['name'] = 'thermalgoggles',                          ['label'] = 'Thermalvision Goggles',           ['weight'] = 100,          ['type'] = 'item',         ['image'] = 'goggles.png',                ['unique'] = true,          ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'Thermalvision goggles'},  ```
 
 
 <p>Right now the only configuarble thing is the items inside `Config.lua`</p>
