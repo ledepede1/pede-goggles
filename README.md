@@ -4,11 +4,8 @@
 ## Installation
 <p>Right now this script is made for QBCore.</p>
 <p>So you will need to add following to your items.lua</p>
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
+
+<p>https://pastebin.com/w9wfdgL9</p>
 
 <p>Right now the only configuarble thing is the items inside `Config.lua`</p>
 <p>I will work on creating the `Config.ini` later on.</p>
